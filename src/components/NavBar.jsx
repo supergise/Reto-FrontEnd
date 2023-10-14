@@ -4,16 +4,16 @@ export const NavBar = () => {
   return (
     <>
         <ul className="hidden sm:flex text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px] sm:items-center">
-            <li>
+            <li className= " hover:text-SoftOrange cursor-pointer hover:text-[18px]">
                 <a href="">Home</a>
             </li>
-            <li>
+            <li className= " hover:text-SoftOrange cursor-pointer hover:text-[18px]">
                 <a href="">Popular</a>
             </li>
-            <li>
+            <li className= " hover:text-SoftOrange cursor-pointer hover:text-[18px]">
                 <a href="">Trending</a>
             </li>
-            <li>
+            <li className= " hover:text-SoftOrange cursor-pointer hover:text-[18px]">
                 <a href="">Categories</a>
             </li>
         </ul>
